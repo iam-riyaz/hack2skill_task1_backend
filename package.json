@@ -1,0 +1,18 @@
+{
+  "name": "hack2skill_task1_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "riyaz ahmad <riyaz.ahmad@indusnet.co.in>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
