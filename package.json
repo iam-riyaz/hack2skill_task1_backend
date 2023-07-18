@@ -1,13 +1,24 @@
 {
   "name": "hack2skill_task1_backend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "riyaz ahmad <riyaz.ahmad@indusnet.co.in>",
-  "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-riyaz/hack2skill_task1_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam-riyaz/hack2skill_task1_backend/issues"
+  },
+  "homepage": "https://github.com/iam-riyaz/hack2skill_task1_backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
